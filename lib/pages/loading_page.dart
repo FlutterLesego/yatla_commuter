@@ -30,13 +30,13 @@ class _LoadingPageState extends State<LoadingPage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            Text(
-              'Ya Tla Bus Tracker',
-              style: titleStyle,
+          children: [
+            Image(
+              width: MediaQuery.of(context).size.width / 2.5,
+              image: const AssetImage("assets/images/yatla.png"),
             ),
-            SizedBoxH10(),
-            AppProgressIndicator(),
+            const SizedBoxH10(),
+            const AppProgressIndicator(),
           ],
         ),
       ),

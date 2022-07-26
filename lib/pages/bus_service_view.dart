@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:yatla/misc/constants.dart';
 import 'package:yatla/routes/route_manager.dart';
-import 'package:yatla/widgets/dialogs.dart';
 
 class BusServiceView extends StatelessWidget {
   const BusServiceView({Key? key}) : super(key: key);
